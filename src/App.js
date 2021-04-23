@@ -6,6 +6,7 @@ import SigninSignUp from "./pages/sign-in-and-sign-up/sign-in-and-sign-up.compon
 import { connect } from "react-redux";
 import { setCurrentUser } from "./redux/user/user-actions";
 import "./App.css";
+
 import Header from "./components/header/header.component";
 import { auth, createUserProfileDocument } from "./firebase/firebase.utils";
 class App extends React.Component {
